@@ -7,7 +7,7 @@ import wavePortal from './utils/WavePortal.json';
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
   const [allWaves, setAllWaves] = useState([]);
-  const contractAddress = "0x7100819f3bd29f2Cde7CE9c28913E226a2D5827A";
+  const contractAddress = "0x80A484789E67D94Ef4bafF1530C0faE934999D2D";
 
   const getAllWaves = async () => {
     try {
@@ -135,7 +135,7 @@ const App = () => {
         </div>
 
         <div className="bio">
-          Hi! I'm Ren wussup! Connect your Ethereum wallet and wave at me!
+          Hi! I'm Akshay! I have worked on  Machine Learning and Blockchain. If you think, that's cool connect your Ethereum wallet and wave at me!
         </div>
 
         <button className="waveButton" onClick={wave}>
@@ -147,11 +147,6 @@ const App = () => {
             Connect Wallet
           </button>
         )}
-        <div class="input-group mb-3">
-        <input type="text" class="form-control" id="userInput" placeholder="Enter Message : "/>
-        <div class="input-group-append">
-          <button class="btn btn-secondary" id="subButton">Search</button>
-        </div></div>
 
         {allWaves.map((wave, index) => {
           return (
@@ -165,6 +160,8 @@ const App = () => {
     </div>
   );
 }
+        // <div class="input-group mb-3">
+        // <input type="text" class="form-control" id="userInput" placeholder="Enter Message : "/></div>
 
 export default App
 

@@ -3,6 +3,7 @@
   justify-content: center;
   width: 100%;
   margin-top: 64px;
+  background-color: rgb(57, 106, 110);
 }
 
 .dataContainer {
@@ -14,22 +15,25 @@
 
 .header {
   text-align: center;
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 600;
+  color: rgb(255, 255, 255);
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: rgb(255, 255, 255);
   margin-top: 16px;
+  font-size: 22px;
 }
 
 .waveButton {
-  background-color: rgb(220, 226, 139);
-  color: rgb(15, 8, 109);
+  background-color: rgb(49, 49, 30);
+  color: rgb(240, 245, 241);
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
+  font-size: 18px;
 }
